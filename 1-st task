@@ -1,0 +1,11 @@
+a = 43
+b = 45
+print(a)
+print(b)
+
+c = input("Введите число")
+d = input("Введите еще число")
+e = input("Как самочувствие?")
+print(c)
+print(d)
+print(e)
