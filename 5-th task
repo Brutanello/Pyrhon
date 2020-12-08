@@ -1,0 +1,13 @@
+viruchka = int(input("Введите выручку"))
+izderzhki = int(input("Введите издержки"))
+if viruchka > izderzhki:
+    print("Фирма работает с положительным финансовым результатом")
+    prib = int(input("Введите значение прибыли"))
+    rentab = prib / viruchka
+    print(f"Рентабельность выручки составляет {rentab}")
+    sotr = int(input("Введите кол-во сотрудников на предприятии"))
+    pribsotr = prib / sotr
+    print(f"Прибыль фирмы в расчете на одного сотрудника составляет {pribsotr}")
+
+else:
+    print("Фирма работает с отрицательным финансовым результатом")
